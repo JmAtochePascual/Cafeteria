@@ -1,4 +1,4 @@
-const { src, dest, watch, series } = require('gulp'); // npm install --save-dev gulp
+const { src, dest, watch, series } = require('gulp'); // npm install --save-dev gulp@4.0.2
 const sass = require('gulp-sass')(require('sass')); // npm install --save-dev sass gulp-sass 
 const postcss = require('gulp-postcss'); // npm install --save-dev gulp-postcss postcss
 const autoprefixer = require('autoprefixer'); // npm install --save-dev autoprefixer
