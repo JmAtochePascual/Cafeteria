@@ -1,17 +1,18 @@
 $primary-Font: "Roboto", sans-serif;
 
-$paragraph: normal 1.4rem/2 var($primary-Font);
-$titleOne: 900 5rem/1.5 var($primary-Font);
-$titleTwo: 900 4rem/1.5 var($primary-Font);
-$titleThree: 900 3rem/1.5 var($primary-Font);
+$paragraph: normal 1.4rem/2 $primary-Font;
+$paragraph-Tablet: normal 1.6rem/2 $primary-Font;
+$titleOne: 900 5rem/1.5 $primary-Font;
+$titleTwo: 900 4rem/1.5 $primary-Font;
+$titleThree: 900 3rem/1.5 $primary-Font;
 
 /* Colors */
-$primer-color: #E8505B;
-$egundo-color: #455A64;
-$tercer-color: #1f1e1e;
+$primer-color: #5E311E;
+$segundo-color: #C39C63;
+$tercer-color: #EBE7DE;
 $white-color: #ffffff;
 $black-color: #000000;
-$gris-color: #eceeef;
+$gray-color: #eceeef;
 
 
 /* UTILIDADES */

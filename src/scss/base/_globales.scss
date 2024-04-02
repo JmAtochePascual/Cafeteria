@@ -16,6 +16,10 @@ html {
 body {
   min-width: 32rem;
   font: v.$paragraph;
+
+  @media screen {
+    font: v.$paragraph-Tablet;
+  }
 }
 
 h1,

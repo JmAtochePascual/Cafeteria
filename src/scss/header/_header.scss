@@ -1,0 +1,85 @@
+@use '../base/variables' as v;
+
+.header {
+  position: relative;
+  padding-block: 2rem;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+
+  @media (min-width: 768px) {
+    min-height: 70rem;
+
+  }
+
+  &::after {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.6);
+  }
+
+  &__barra {
+    position: relative;
+    z-index: 1;
+    margin-bottom: 5rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 2rem;
+
+    @media (min-width: 768px) {
+      flex-direction: row;
+      justify-content: space-between;
+      margin-bottom: 15rem;
+    }
+  }
+
+  &__logo {
+    width: 15rem;
+    height: auto;
+  }
+
+  &__menu {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: .8rem;
+
+    @media (min-width: 768px) {
+      flex-direction: row;
+      gap: 2rem;
+    }
+  }
+
+  &__link {
+    text-transform: uppercase;
+    font-weight: 700;
+    color: v.$white-color;
+
+    @media (min-width: 768px) {
+      &:hover {
+        color: v.$segundo-color;
+      }
+    }
+  }
+
+  &__link--select {
+    color: v.$segundo-color;
+  }
+
+  &__titulo {
+    position: relative;
+    z-index: 1;
+    color: v.$white-color;
+    text-transform: uppercase;
+    text-align: center;
+  }
+}
+
+.header--inicio {
+  background-image: url("../img/header_inicio.jpg");
+}
