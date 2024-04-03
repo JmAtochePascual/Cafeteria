@@ -16,8 +16,9 @@ html {
 body {
   min-width: 32rem;
   font: v.$paragraph;
+  background-color: v.$tercer-color;
 
-  @media screen {
+  @media (min-width: 768px) {
     font: v.$paragraph-Tablet;
   }
 }
@@ -37,6 +38,26 @@ h1 {
 
 h2 {
   font: v.$titleTwo;
+  color: v.$primer-color;
+
+  &::after {
+    content: '';
+    width: 10rem;
+    height: 10rem;
+    margin-inline: auto;
+    margin-bottom: 3rem;
+    display: block;
+    background-image: url("../img/cafe.svg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+  }
+
+  span {
+    display: block;
+    font-size: 2rem;
+    color: v.$segundo-color;
+  }
 }
 
 h3 {

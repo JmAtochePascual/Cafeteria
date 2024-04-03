@@ -1,0 +1,12 @@
+@use '../base/variables' as v;
+
+.main {
+  position: relative;
+  padding: 2rem;
+  background-color: v.$white-color;
+
+  @media (min-width: 768px) {
+    margin-top: -15rem;
+    padding: 10rem;
+  }
+}
