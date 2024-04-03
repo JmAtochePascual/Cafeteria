@@ -30,6 +30,7 @@ h4,
 h5,
 h6 {
   margin: 0;
+  text-transform: uppercase;
 }
 
 h1 {
@@ -38,6 +39,7 @@ h1 {
 
 h2 {
   font: v.$titleTwo;
+  text-align: center;
   color: v.$primer-color;
 
   &::after {
