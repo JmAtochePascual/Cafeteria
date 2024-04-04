@@ -62,6 +62,19 @@ h2 {
   }
 }
 
+.titulo-blanco {
+  @extend h2;
+  color: v.$white-color;
+
+  &::after {
+    display: none;
+  }
+
+  span {
+    color: v.$white-color;
+  }
+}
+
 h3 {
   font: v.$titleThree;
 }
