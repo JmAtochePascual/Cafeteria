@@ -1,0 +1,29 @@
+@use '../base/variables' as v;
+
+.testimoniales {
+  padding-block: 2rem;
+  background-color: v.$white-color;
+
+  @media (min-width: 768px) {
+    margin-top: -10rem;
+    padding-block: 10rem;
+  }
+
+  &__testimonial {
+    width: min(90%, 50rem);
+    margin-inline: auto;
+    padding: 2rem;
+    border-radius: 1.6rem;
+    background-color: v.$tercer-color;
+  }
+
+  &__texto {
+    text-align: center;
+  }
+
+  &__autor {
+    text-align: right;
+    font-weight: bold;
+    color: v.$primer-color;
+  }
+}
