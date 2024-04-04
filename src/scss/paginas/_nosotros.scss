@@ -1,0 +1,29 @@
+@use '../base/variables' as v;
+
+.nosotros {
+
+  &__content {
+    display: grid;
+    justify-items: center;
+    gap: 3rem;
+
+    @media (min-width: 768px) {
+      grid-template-columns: repeat(2, 1fr);
+    }
+  }
+
+  &__img {
+    width: 100%;
+    height: auto;
+    box-shadow: 5px 5px 1rem rgba(0, 0, 0, .6);
+
+    @media (min-width: 768px) {
+      width: 50rem;
+    }
+  }
+
+  &__block {
+    padding-left: 2rem;
+    border-left: .5rem solid v.$primer-color;
+  }
+}

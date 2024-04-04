@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- Font -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+    rel="stylesheet">
+  <!-- CSS -->
+  <link rel="stylesheet" href="./build/css/app.css">
+  <title>Cafería</title>
+</head>
+<body>
+  <header class="header header--nosotros">
+    <div class="header__container">
+      <div class="header__barra">
+        <img class="header__logo" src="./build/img/logo.svg" alt="logo de la marca" width="150" height="150">
+
+        <nav class="header__menu">
+          <a href="index.html" class="header__link">Inicio</a>
+          <a href="nosotros.html" class="header__link header__link--select">nosotros</a>
+          <a href="proceso.html" class="header__link">proceso</a>
+          <a href="menu.html" class="header__link">menu</a>
+          <a href="galeria.html" class="header__link">galería</a>
+          <a href="contacto.html" class="header__link">contacto</a>
+        </nav>
+      </div>
+
+      <h1 class="header__titulo">Una nueva experienca cada día</h1>
+    </div>
+  </header>
+
+  <main class="main main__container">
+    <section class="nosotros">
+      <h2><span>conoce más</span>sobre nosotros</h2>
+
+      <div class="nosotros__content">
+        <picture class="nosotros">
+          <source srcset="./build/img/nosotros_sidebar.avif" type="image/avif">
+          <source srcset="./build/img/nosotros_sidebar.webp" type="image/webp">
+          <img class="nosotros__img" src="./build/img/nosotros_sidebar.jpg" alt="imagen de nosotros" loading="lazy"
+            width="300" height="200">
+        </picture>
+
+        <div class="">
+          <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Veniam labore similique provident quod nobis
+            illo, magnam, sint, maxime earum vero non aliquam? Labore, blanditiis error! Laudantium quisquam iure
+            voluptatum provident.</p>
+          <blockquote class="nosotros__block">Excelente Sabor!</blockquote>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nam consequuntur quas eos magni, est pariatur hic
+            impedit sapiente tenetur? Rem ut quaerat ullam eum maxime error, placeat perferendis aliquam inventore.</p>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="footer__container">
+      <div class="footer__grid">
+        <div class="footer__card">
+          <p class="footer__heading">Ubicación</p>
+          <p>Nicolas Copérnico</p>
+          <p>Guadalajara, Jalisco</p>
+        </div>
+        <div class="footer__card">
+          <p class="footer__heading">reservación</p>
+          <p>Tel +51 965-653-698</p>
+          <p>Llamar</p>
+        </div>
+        <div class="footer__card">
+          <p class="footer__heading">Horario</p>
+          <p>Lun-Jue: 11:00 - 22:00</p>
+          <p>Vie-Sab: 09:00 - 24:00</p>
+          <p>Domingo: Cerrado</p>
+        </div>
+      </div>
+
+      <p class="footer__copy">Todos los derechos reservados la Cafetería &copy;</p>
+    </div>
+  </footer>
+</body>
+</html>
