@@ -1,0 +1,30 @@
+@use '../base/variables' as v;
+
+.footer {
+  padding-bottom: 2rem;
+  background-color: v.$primer-color;
+
+  &__grid {
+    padding: 2rem;
+    display: grid;
+    gap: 2rem;
+    text-align: center;
+    background-color: v.$white-color;
+
+    @media (min-width: 768px) {
+      grid-template-columns: repeat(3, 1fr);
+    }
+  }
+
+  &__heading {
+    text-transform: uppercase;
+    font-weight: 700;
+    color: v.$segundo-color;
+  }
+
+  &__copy {
+    margin-top: 1rem;
+    text-align: center;
+    color: v.$white-color;
+  }
+}
