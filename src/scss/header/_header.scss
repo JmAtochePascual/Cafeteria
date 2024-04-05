@@ -80,26 +80,110 @@
   }
 }
 
+
+
 .header--inicio {
   background-image: url("../img/header_inicio.jpg");
 }
+
+@supports (background-image: url('../img/header_inicio.webp')) {
+  .header--inicio {
+    background-image: url("../img/header_inicio.webp");
+  }
+}
+
+@supports (background-image: url('../img/header_inicio.avif')) {
+  .header--inicio {
+    background-image: url("../img/header_inicio.avif");
+  }
+}
+
+
 
 .header--nosotros {
   background-image: url("../img/header_nosotros.jpg");
 }
 
+@supports (background-image: url("../img/header_nosotros.webp")) {
+  .header--nosotros {
+    background-image: url("../img/header_nosotros.webp");
+  }
+}
+
+@supports (background-image: url("../img/header_nosotros.avif")) {
+  .header--nosotros {
+    background-image: url("../img/header_nosotros.avif");
+  }
+}
+
+
+
 .header--proceso {
   background-image: url("../img/header_proceso.jpg");
 }
+
+@supports (background-image: url("../img/header_proceso.webp")) {
+  .header--proceso {
+    background-image: url("../img/header_proceso.webp");
+  }
+}
+
+@supports (background-image: url("../img/header_proceso.avif")) {
+  .header--proceso {
+    background-image: url("../img/header_proceso.avif");
+  }
+}
+
+
 
 .header--menu {
   background-image: url("../img/header_menu.jpg");
 }
 
+@supports (background-image: url("../img/header_menu.webp")) {
+  .header--menu {
+    background-image: url("../img/header_menu.webp");
+  }
+}
+
+@supports (background-image: url("../img/header_menu.avif")) {
+  .header--menu {
+    background-image: url("../img/header_menu.avif");
+  }
+}
+
+
+
 .header--galeria {
   background-image: url("../img/header_galeria.jpg");
 }
 
+@supports (background-image: url("../img/header_galeria.webp")) {
+  .header--galeria {
+    background-image: url("../img/header_galeria.webp");
+  }
+}
+
+@supports (background-image: url("../img/header_galeria.avif")) {
+  .header--galeria {
+    background-image: url("../img/header_galeria.avif");
+  }
+}
+
+
+
 .header--contacto {
   background-image: url("../img/header_contacto.jpg");
+}
+
+@supports (background-image: url("../img/header_contacto.webp")) {
+  .header--contacto {
+    background-image: url("../img/header_contacto.webp");
+  }
+}
+
+@supports (background-image: url("../img/header_contacto.avif")) {
+  .header--contacto {
+    background-image: url("../img/header_contacto.avif");
+  }
 }
