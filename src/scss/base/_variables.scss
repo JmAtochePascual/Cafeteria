@@ -1,3 +1,40 @@
+@font-face {
+  font-family: "Roboto", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  src:
+    local("Roboto"),
+    url("../../src/fonts/Roboto-Regular.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "Roboto", sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  src:
+    local("Roboto"),
+    url("../../src/fonts/Roboto-Medium.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "Roboto", sans-serif;
+  font-style: normal;
+  font-weight: 900;
+  src:
+    local("Roboto"),
+    url("../../src/fonts/Roboto-Black.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "Roboto", sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  src:
+    local("Roboto"),
+    url("../../src/fonts/Roboto-Bold.ttf") format("truetype");
+}
+
+
 $primary-Font: "Roboto", sans-serif;
 
 $paragraph: normal 1.4rem/2 $primary-Font;
@@ -8,7 +45,7 @@ $titleThree: 900 3rem/1.5 $primary-Font;
 
 /* Colors */
 $primer-color: #5E311E;
-$segundo-color: #C39C63;
+$segundo-color: #a48352;
 $tercer-color: #EBE7DE;
 $white-color: #ffffff;
 $black-color: #000000;
