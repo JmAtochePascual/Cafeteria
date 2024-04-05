@@ -78,6 +78,6 @@ Este proyecto está bajo la licencia [MIT](https://opensource.org/licenses/MIT).
 
 ## 🌐Ver Proyecto en la WEB
 
-[ver Proyecto](URL_del_enlace)
+[ver Proyecto](https://jmatochepacual.github.io/Cafeteria/)
 
-© 2024 Tienda Muebles. Todos los derechos reservados.
+Todos los derechos reservados. La Cafetería 2024 ©.
