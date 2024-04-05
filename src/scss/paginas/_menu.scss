@@ -1,0 +1,33 @@
+@use '../base/variables' as v;
+
+.menu {
+  background-image: url("../img/cafe.jpg");
+  background-size: 28rem;
+  background-position: center bottom;
+  background-repeat: no-repeat;
+
+  @media (min-width: 768px) {
+    background-position: right bottom;
+  }
+
+  &__content {
+    display: grid;
+    max-width: 40rem;
+    margin-inline: auto;
+    grid-template-rows: repeat(2, 1fr);
+    gap: 10rem;
+    text-align: center;
+
+    @media (min-width: 768px) {
+      max-width: unset;
+      grid-template-rows: unset;
+      grid-template-columns: 1fr 1fr;
+      gap: 1rem;
+      text-align: left;
+    }
+  }
+}
+
+.main-bottom-0 {
+  padding-bottom: 0;
+}
