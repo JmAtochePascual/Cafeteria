@@ -5,14 +5,18 @@ const autoprefixer = require('autoprefixer'); // npm install --save-dev autopref
 const imagemin = require('gulp-imagemin'); // npm install --save-dev gulp-imagemin@7.1.0
 const webp = require('gulp-webp'); // npm install --save-dev gulp-webp@4.0.1
 const avif = require('gulp-avif'); // npm install --save-dev gulp-avif
+const sourcemaps = require('gulp-sourcemaps'); // npm install --save-dev gulp-sourcemaps
+const cssnano = require('cssnano'); // npm install --save-dev cssnano
 
 
 
 // Compile SASS files to CSS
 const css = (done) => {
   src('./src/scss/**/*.scss') // Source files
+    .pipe(sourcemaps.init()) // Initialize sourcemaps
     .pipe(sass({ outputStyle: 'expanded' })) // Compile SASS to CSS
-    .pipe(postcss([autoprefixer()])) // Add vendor prefixes
+    .pipe(postcss([autoprefixer(), cssnano()])) // Add vendor prefixes
+    .pipe(sourcemaps.write('.')) // Write sourcemaps
     .pipe(dest('./build/css')); // Output folder
   done();
 };
