@@ -78,6 +78,6 @@ Este proyecto está bajo la licencia [MIT](https://opensource.org/licenses/MIT).
 
 ## 🌐Ver Proyecto en la WEB
 
-[ver Proyecto](https://jmatochepacual.github.io/Cafeteria/)
+[ver Proyecto](https://jmatochepascual.github.io/Cafeteria/)
 
 Todos los derechos reservados. La Cafetería 2024 ©.
